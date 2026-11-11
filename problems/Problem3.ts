@@ -1,5 +1,6 @@
 // Problem 3
 import { Professor, Class, Student } from "../types";
+import { arrayOfStudents } from "./Problem2";
 
 // Function that returns the names of all students a professor teaches in increasing order by age
 export function studentsTaughtByProf(professor: Professor): string[] {
@@ -15,3 +16,5 @@ export function studentsTaughtByProf(professor: Professor): string[] {
     // SORT
     return Array.from(studentFinder.keys()).sort((a: string, b: string) => (studentFinder.get(a)! - studentFinder.get(b)!));
 }
+
+export default studentsTaughtByProf;

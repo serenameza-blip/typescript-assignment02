@@ -7,3 +7,4 @@ function countOccurrences<T>(arr: T[], item: T): number {
     return arr.filter(i => i === item).length; // Placeholder return statement
 }
 
+export default countOccurrences;

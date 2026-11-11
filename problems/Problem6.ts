@@ -21,3 +21,4 @@ export function verifyUser(user: User | null | undefined): User | string[] {
     return missingProp;
 }
 
+export default verifyUser;

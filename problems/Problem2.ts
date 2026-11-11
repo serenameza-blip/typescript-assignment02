@@ -16,6 +16,8 @@ export function arrayOfStudents(names: string[], ages: number[]): Student[] {
     return students;
 }
 
+export default arrayOfStudents;
+
 // Example
 // arrayOfStudents(names, ages));
 // Expected output:

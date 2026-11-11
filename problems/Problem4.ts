@@ -9,3 +9,5 @@ export function allAthletes(students: (Student | Athlete)[], defaultSport: strin
         ... student
     })) as Athlete[];
 }
+
+export default allAthletes;
